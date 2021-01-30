@@ -1,0 +1,19 @@
+{
+  "type": "java",
+  "name": "Debug (Launch)",
+  "request": "launch",
+  "cwd": "${workspaceFolder}",
+  "console": "internalConsole",
+  "stopOnEntry": false,
+  "mainClass": "",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Application",
+      "request": "launch",
+      "mainClass": "Application",
+      "projectName": "conference",
+      "vmArgs": "-Dspring.profiles.active=dev"
+    }
+  ]
+}
